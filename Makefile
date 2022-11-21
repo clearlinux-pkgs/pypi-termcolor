@@ -1,5 +1,5 @@
 PKG_NAME := pypi-termcolor
-URL = https://files.pythonhosted.org/packages/62/1a/e78a930f70dd576f2a7250a98263ac973a80d6f1a395d89328844881a0c0/termcolor-2.1.0.tar.gz
+URL = https://files.pythonhosted.org/packages/19/da/ff1f0906818a5bd2e69e773d88801ca3c9e92d0d7caa99db1665658819ea/termcolor-2.1.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

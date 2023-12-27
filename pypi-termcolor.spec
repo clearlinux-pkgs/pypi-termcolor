@@ -7,7 +7,7 @@
 #
 Name     : pypi-termcolor
 Version  : 2.4.0
-Release  : 16
+Release  : 17
 URL      : https://files.pythonhosted.org/packages/10/56/d7d66a84f96d804155f6ff2873d065368b25a07222a6fd51c4f24ef6d764/termcolor-2.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/10/56/d7d66a84f96d804155f6ff2873d065368b25a07222a6fd51c4f24ef6d764/termcolor-2.4.0.tar.gz
 Summary  : ANSI color formatting for output in terminal

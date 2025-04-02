@@ -6,10 +6,10 @@
 # autospec commit: 247c192
 #
 Name     : pypi-termcolor
-Version  : 3.0.0
-Release  : 22
-URL      : https://files.pythonhosted.org/packages/17/b3/b30506dc4297bb12e209ce455ae53c95f78470b442ae8ef83535cb9493e6/termcolor-3.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/17/b3/b30506dc4297bb12e209ce455ae53c95f78470b442ae8ef83535cb9493e6/termcolor-3.0.0.tar.gz
+Version  : 3.0.1
+Release  : 23
+URL      : https://files.pythonhosted.org/packages/f8/b6/8e2aaa8aeb570b5cc955cd913b083d96c5447bbe27eaf330dfd7cc8e3329/termcolor-3.0.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/f8/b6/8e2aaa8aeb570b5cc955cd913b083d96c5447bbe27eaf330dfd7cc8e3329/termcolor-3.0.1.tar.gz
 Summary  : ANSI color formatting for output in terminal
 Group    : Development/Tools
 License  : MIT
@@ -67,10 +67,10 @@ python3 components for the pypi-termcolor package.
 
 
 %prep
-%setup -q -n termcolor-3.0.0
-cd %{_builddir}/termcolor-3.0.0
+%setup -q -n termcolor-3.0.1
+cd %{_builddir}/termcolor-3.0.1
 pushd ..
-cp -a termcolor-3.0.0 buildavx2
+cp -a termcolor-3.0.1 buildavx2
 popd
 
 %build
@@ -78,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1743437638
+export SOURCE_DATE_EPOCH=1743602962
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
